@@ -1033,7 +1033,7 @@ do
 
             toggle.objects.background = library:create('rect', {
                 Theme = {['Color'] = 'Option Background'},
-                Size = udim2_new(0,655,0,6),
+                Size = udim2_new(0,6,0,6),
                 Position = udim2_new(0,3,0,5),
                 AnchorPoint = vectoar2_new(0,0),
                 ZIndex = toggle.zindex + 3,
@@ -2329,7 +2329,7 @@ do
         local menu = setmetatable({}, meta)
         properties     = properties or {}
         menu.text      = properties.text or 'sylvis'
-        menu.size      = properties.size or udim2_new(0, 525, 0, 650)
+        menu.size      = properties.size or udim2_new(0, 525, 0, 450)
         menu.position  = properties.position or udim2_new(0.2, 0, 0.2, 0)
         menu.open      = true
         menu.visvalues = {}
